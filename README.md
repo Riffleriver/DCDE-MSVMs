@@ -1,7 +1,7 @@
 # DCDE-MSVMs
 DCDE: An Efficient Deep Convolutional Divergence Encoding Method for Human Promoter Recognition
-==============================================================================================
-DEPENDENCIES:
+
+## DEPENDENCIES:
 
 OS: Windows 10
 
@@ -13,33 +13,32 @@ OS: Windows 10
 6. Keras 2.0.6
 7. kPAL 2.1.1
 
-============================================================================================
-USAGE:
+## USAGE:
 
-Data:
+*Data:
 
-example:
-  traning set(positive): training_2_positive.fasta
-  traning set(negative): training_2_negative.fasta
-  test set(positive):    test_2_positive.fasta
-  test set(negative):    test_2_positive.fasta
+Example:<br>
+  traning set(positive):  raining_2_positive.fasta<br>
+  traning set(negative):  training_2_negative.fasta<br>
+  test set(positive): test_2_positive.fasta<br>
+  test set(negative): test_2_positive.fasta<br>
   
-STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
+*STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
 
-  Example run:
+Example run:<br>
     python IFkmerS.py
    
-STEP 2:  Deep Convolutional Divergence Encoding: CNN secondary encoding
+*STEP 2:  Deep Convolutional Divergence Encoding: CNN secondary encoding
 
-  Example run:
+Example run:<br>
     python CNN_2nd.py
     
-STEP 3:  MSVMs recognition
+*STEP 3:  MSVMs recognition
   
-  Example run:
+Example run:<br>
     python mySVM.py
     
-STEP 4:  Bilayer Dicision Model
+*STEP 4:  Bilayer Dicision Model
 
-  Example run:
+Example run:<br>
     python BD.py
