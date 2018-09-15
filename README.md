@@ -26,27 +26,27 @@ Example:<br>
 *STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
 
 Example run:<br>
-'"Bash
+```Bash
 python IFkmerS.py
-'"
+```
 
 *STEP 2:  Deep Convolutional Divergence Encoding: CNN secondary encoding
 
 Example run:<br>
-'"Bash
+```Bash
 python CNN_2nd.py
-'"
+```
 
 *STEP 3:  MSVMs recognition
   
 Example run:<br>
-'"Bash
+```Bash
 python mySVM.py
-'"
+```
 
 *STEP 4:  Bilayer Dicision Model
 
 Example run:<br>
-'"Bash
+```Bash
 python BD.py
-'"
+```
