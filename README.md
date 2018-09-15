@@ -18,10 +18,10 @@ OS: Windows 10
 * Data:
 
 Example:<br>
-  traning set(positive): | training_2_positive.fasta<br>
-  traning set(negative): | training_2_negative.fasta<br>
-  test set(positive): | test_2_positive.fasta<br>
-  test set(negative): | test_2_positive.fasta<br>
+  | traning set(positive): | training_2_positive.fasta |
+  | traning set(negative): | training_2_negative.fasta |
+  | test set(positive): | test_2_positive.fasta |
+  | test set(negative): | test_2_positive.fasta |
   
 * STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
 
