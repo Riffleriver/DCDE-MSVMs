@@ -15,36 +15,36 @@ OS: Windows 10
 
 ## USAGE:
 
-*Data:
+* Data:
 
 Example:<br>
-  traning set(positive):  training_2_positive.fasta<br>
-  traning set(negative):  training_2_negative.fasta<br>
-  test set(positive): test_2_positive.fasta<br>
-  test set(negative): test_2_positive.fasta<br>
+  traning set(positive): | training_2_positive.fasta<br>
+  traning set(negative): | training_2_negative.fasta<br>
+  test set(positive): | test_2_positive.fasta<br>
+  test set(negative): | test_2_positive.fasta<br>
   
-*STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
+* STEP 1:  Deep Convolutional Divergence Encoding: Informative kmers settlement
 
 Example run:<br>
 ```Bash
 python IFkmerS.py
 ```
 
-*STEP 2:  Deep Convolutional Divergence Encoding: CNN secondary encoding
+* STEP 2:  Deep Convolutional Divergence Encoding: CNN secondary encoding
 
 Example run:<br>
 ```Bash
 python CNN_2nd.py
 ```
 
-*STEP 3:  MSVMs recognition
+* STEP 3:  MSVMs recognition
   
 Example run:<br>
 ```Bash
 python mySVM.py
 ```
 
-*STEP 4:  Bilayer Dicision Model
+* STEP 4:  Bilayer Dicision Model
 
 Example run:<br>
 ```Bash
