@@ -47,6 +47,6 @@ OS: Windows 10
 * STEP 4:  Bilayer Dicision Model
 
   Example run:
-```Bash
-python BD.py
-```
+  ```Bash
+  python BD.py
+  ```
